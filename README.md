@@ -65,100 +65,100 @@ The following SaaS multi-model database providers are ranked in **descending ord
 
 ## 🛠️ Open-Source GitHub Projects
 
-The leading open-source multi-model database repositories are ranked below in **descending order by GitHub star count**. Click any star badge to inspect real-time stargazers.
+The leading open-source multi-model database repositories are ranked below in **descending order by GitHub Stars_Count**. Click any Stars_Badge to inspect real-time stargazers.
 
-### 1. [SurrealDB](https://github.com/surrealdb/surrealdb) [![GitHub stars](https://img.shields.io/github/stars/surrealdb/surrealdb?style=social&color=white)](https://github.com/surrealdb/surrealdb/stargazers)
+### 1. [SurrealDB](https://github.com/surrealdb/surrealdb) [![GitHub_Stars](https://img.shields.io/github/stars/surrealdb/surrealdb?style=social&color=white)](https://github.com/surrealdb/surrealdb/stargazers)
 - **Supported Models**: 📄 Document, 🕸️ Graph, 🧠 Vector, 🗄️ Relational, ⏱️ Time-Series, 🌍 Geospatial
 - **Primary Language & Core**: Rust
 - **Query Interface**: `SurrealQL` (SQL-style syntax with graph operators like `->` and `<-`, KNN vector search, and real-time live queries)
 - **Architecture Highlights**: Unifies six distinct data models natively inside a single ACID storage engine. Features embedded row-level security and JWT auth within the database engine, avoiding sidecars. Can be deployed as an embedded database in Rust/Python/WASM or as a multi-node distributed cluster.
 - **Best For**: Full-stack web/mobile applications, real-time collaboration engines, and teams replacing complex stacks with a single lightweight binary.
 
-### 2. [Dgraph](https://github.com/dgraph-io/dgraph) [![GitHub stars](https://img.shields.io/github/stars/dgraph-io/dgraph?style=social&color=white)](https://github.com/dgraph-io/dgraph/stargazers)
+### 2. [Dgraph](https://github.com/dgraph-io/dgraph) [![GitHub_Stars](https://img.shields.io/github/stars/dgraph-io/dgraph?style=social&color=white)](https://github.com/dgraph-io/dgraph/stargazers)
 - **Supported Models**: 🕸️ Distributed Property Graph, 📄 Document (JSON), 🧠 Vector Embeddings, 🔑 Key-Value
 - **Primary Language & Core**: Go
 - **Query Interface**: Native `GraphQL` and `GraphQL+-` (an expressive graph query dialect based on GraphQL)
 - **Architecture Highlights**: Built from the ground up for horizontal scaling and low latency on massive graph datasets. Shards and distributes graph data across cluster nodes with Raft consensus and BadgerDB key-value underlying storage.
 - **Best For**: Knowledge graphs, fraud detection, social networks, and master data management requiring native GraphQL endpoints.
 
-### 3. [ArangoDB](https://github.com/arangodb/arangodb) [![GitHub stars](https://img.shields.io/github/stars/arangodb/arangodb?style=social&color=white)](https://github.com/arangodb/arangodb/stargazers)
+### 3. [ArangoDB](https://github.com/arangodb/arangodb) [![GitHub_Stars](https://img.shields.io/github/stars/arangodb/arangodb?style=social&color=white)](https://github.com/arangodb/arangodb/stargazers)
 - **Supported Models**: 🕸️ Native Graph, 📄 JSON Document, 🔑 Key-Value, 🧠 Vector Search, 🔎 Full-Text Search
 - **Primary Language & Core**: C++
 - **Query Interface**: `AQL` (ArangoDB Query Language — unified declarative query language for graph traversals, joins, full-text ranking, and vector similarity)
 - **Architecture Highlights**: RocksDB-based multi-model core. SmartGraphs feature co-locates interconnected graph nodes to eliminate network hops during traversals. Provides single-instance ACID transactions and OneShard cluster consistency.
 - **Best For**: Complex graph traversal workloads combined with unstructured document storage and AI retrieval pipelines.
 
-### 4. [Gel](https://github.com/geldata/gel) *(formerly EdgeDB)* [![GitHub stars](https://img.shields.io/github/stars/geldata/gel?style=social&color=white)](https://github.com/geldata/gel/stargazers)
+### 4. [Gel](https://github.com/geldata/gel) *(formerly EdgeDB)* [![GitHub_Stars](https://img.shields.io/github/stars/geldata/gel?style=social&color=white)](https://github.com/geldata/gel/stargazers)
 - **Supported Models**: 🗄️ Relational, 🕸️ Graph-Object, 📄 Document (JSON), 🧠 Vector Search
 - **Primary Language & Core**: Rust & Python (built on PostgreSQL)
 - **Query Interface**: `EdgeQL` (high-level, composable, object-oriented query language eliminating SQL join friction)
 - **Architecture Highlights**: Supercharges PostgreSQL by integrating an expressive object-relational graph schema, built-in authentication, migration tooling, and native AI vector indexing without sacrificing Postgres ACID guarantees.
 - **Best For**: Modern TypeScript, Python, and Go developers wanting graph and object modeling convenience backed by rock-solid PostgreSQL reliability.
 
-### 5. [NebulaGraph](https://github.com/vesoft-inc/nebula) [![GitHub stars](https://img.shields.io/github/stars/vesoft-inc/nebula?style=social&color=white)](https://github.com/vesoft-inc/nebula/stargazers)
+### 5. [NebulaGraph](https://github.com/vesoft-inc/nebula) [![GitHub_Stars](https://img.shields.io/github/stars/vesoft-inc/nebula?style=social&color=white)](https://github.com/vesoft-inc/nebula/stargazers)
 - **Supported Models**: 🕸️ Large-Scale Property Graph, 🔑 Key-Value, 🧠 Vector Search, 📄 Semi-Structured Data
 - **Primary Language & Core**: C++
 - **Query Interface**: `nGQL` (Nebula Graph Query Language) & `openCypher`
 - **Architecture Highlights**: Disaggregated shared-nothing architecture separating stateless compute nodes (`nebula-graphd`) from stateful Raft-based storage nodes (`nebula-storaged`). Designed for super-large datasets containing tens of billions of vertices and trillions of edges.
 - **Best For**: Enterprise-scale financial risk control, knowledge graph reasoning, real-time recommendation engines, and telecommunications network analytics.
 
-### 6. [Vespa](https://github.com/vespa-engine/vespa) [![GitHub stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white)](https://github.com/vespa-engine/vespa/stargazers)
+### 6. [Vespa](https://github.com/vespa-engine/vespa) [![GitHub_Stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white)](https://github.com/vespa-engine/vespa/stargazers)
 - **Supported Models**: 📄 Structured Document, 🧠 Multi-Vector & Tensor, 🔎 Full-Text Search, ⚡ Real-Time Inverted Index
 - **Primary Language & Core**: C++ & Java
 - **Query Interface**: Vespa Query API & YQL (Yahoo Query Language)
 - **Architecture Highlights**: Purpose-built big data AI search and ranking engine. Computes machine learning models, neural tensor transformations, and vector nearest-neighbor search concurrently with structured document filtering in milliseconds.
 - **Best For**: Billion-scale semantic search, real-time AI personalization, recommendation engines, and RAG pipelines.
 
-### 7. [Apache Ignite](https://github.com/apache/ignite) [![GitHub stars](https://img.shields.io/github/stars/apache/ignite?style=social&color=white)](https://github.com/apache/ignite/stargazers)
+### 7. [Apache Ignite](https://github.com/apache/ignite) [![GitHub_Stars](https://img.shields.io/github/stars/apache/ignite?style=social&color=white)](https://github.com/apache/ignite/stargazers)
 - **Supported Models**: 🔑 In-Memory Key-Value, 🗄️ ANSI-99 SQL Relational, 📄 JSON Document, 🧠 Machine Learning / Graph Cache
 - **Primary Language & Core**: Java & C++
 - **Query Interface**: ANSI-99 `SQL`, Key-Value API, MapReduce, and Continuous Queries
 - **Architecture Highlights**: High-performance distributed in-memory data grid and multi-model database. Offers distributed ACID transactions across partitions, in-memory caching tiers, native persistence on disk, and distributed computing grid APIs.
 - **Best For**: High-frequency trading, banking transactions, caching acceleration layers, and low-latency hybrid transactional/analytical processing (HTAP).
 
-### 8. [OrientDB](https://github.com/orientechnologies/orientdb) [![GitHub stars](https://img.shields.io/github/stars/orientechnologies/orientdb?style=social&color=white)](https://github.com/orientechnologies/orientdb/stargazers)
+### 8. [OrientDB](https://github.com/orientechnologies/orientdb) [![GitHub_Stars](https://img.shields.io/github/stars/orientechnologies/orientdb?style=social&color=white)](https://github.com/orientechnologies/orientdb/stargazers)
 - **Supported Models**: 🕸️ Property Graph, 📄 Document, 🔑 Key-Value, 🧱 Object-Oriented, 🌍 Geospatial
 - **Primary Language & Core**: Java
 - **Query Interface**: Extended SQL with graph navigation syntax and `Apache TinkerPop Gremlin`
 - **Architecture Highlights**: The pioneer of multi-model databases. Replaces expensive relational joins with direct pointer links (`LINK` fields) connecting documents as vertices and edges, enabling native multi-model capabilities without foreign keys.
 - **Best For**: Enterprise legacy systems, content management platforms, and organizations seeking an established Java-based graph-document database.
 
-### 9. [TypeDB](https://github.com/typedb/typedb) [![GitHub stars](https://img.shields.io/github/stars/typedb/typedb?style=social&color=white)](https://github.com/typedb/typedb/stargazers)
+### 9. [TypeDB](https://github.com/typedb/typedb) [![GitHub_Stars](https://img.shields.io/github/stars/typedb/typedb?style=social&color=white)](https://github.com/typedb/typedb/stargazers)
 - **Supported Models**: 🧠 Entity-Relation-Attribute (ERA) Graph, 📄 Polymorphic Document, 🗄️ Relational Conceptual Schema
 - **Primary Language & Core**: Rust
 - **Query Interface**: `TypeQL` (strongly-typed, declarative conceptual query and reasoning language)
 - **Architecture Highlights**: Introduces a type-theoretic data model and native automated deductive reasoning. Treats types, entities, relations, and nested attributes polymorphically with schema-enforced validation and rule-based query resolution.
 - **Best For**: Biomedical knowledge bases, cyber defense threat modeling, drug discovery, and complex domain ontologies.
 
-### 10. [CrateDB](https://github.com/crate/crate) [![GitHub stars](https://img.shields.io/github/stars/crate/crate?style=social&color=white)](https://github.com/crate/crate/stargazers)
+### 10. [CrateDB](https://github.com/crate/crate) [![GitHub_Stars](https://img.shields.io/github/stars/crate/crate?style=social&color=white)](https://github.com/crate/crate/stargazers)
 - **Supported Models**: 🗄️ Relational SQL, 📄 Dynamic JSON Documents, ⏱️ Time-Series, 🧠 Vector Embeddings, 🔎 Full-Text (Lucene)
 - **Primary Language & Core**: Java (Postgres wire protocol compatible)
 - **Query Interface**: Standard `SQL` (ANSI SQL with extensions for dynamic objects and full-text search)
 - **Architecture Highlights**: Combines PostgreSQL wire-level compatibility with Elasticsearch-grade inverted indexing (Apache Lucene) and distributed shared-nothing sharding. Dynamic schemas automatically index new JSON document fields upon ingestion.
 - **Best For**: Industrial IoT sensor streams, cybersecurity event logs, operational analytics dashboards, and real-time telemetry.
 
-### 11. [Kùzu](https://github.com/kuzudb/kuzu) [![GitHub stars](https://img.shields.io/github/stars/kuzudb/kuzu?style=social&color=white)](https://github.com/kuzudb/kuzu/stargazers)
+### 11. [Kùzu](https://github.com/kuzudb/kuzu) [![GitHub_Stars](https://img.shields.io/github/stars/kuzudb/kuzu?style=social&color=white)](https://github.com/kuzudb/kuzu/stargazers)
 - **Supported Models**: 🕸️ Property Graph, 🗄️ Relational Tables, 📄 Semi-Structured Document, 🧠 Vector Search
 - **Primary Language & Core**: C++
 - **Query Interface**: `Cypher` (openCypher declarative graph syntax)
 - **Architecture Highlights**: Embedded, in-process graph-relational DBMS designed as "the DuckDB of graph databases." Features columnar storage with Factorized Query Execution for blazingly fast graph traversals, joins, and vector similarity without external server processes.
 - **Best For**: Embedded graph analytics, Python/R data science workflows, local LLM Graph-RAG pipelines, and desktop applications.
 
-### 12. [AgensGraph](https://github.com/skaiworldwide-oss/agensgraph) [![GitHub stars](https://img.shields.io/github/stars/skaiworldwide-oss/agensgraph?style=social&color=white)](https://github.com/skaiworldwide-oss/agensgraph/stargazers)
+### 12. [AgensGraph](https://github.com/skaiworldwide-oss/agensgraph) [![GitHub_Stars](https://img.shields.io/github/stars/skaiworldwide-oss/agensgraph?style=social&color=white)](https://github.com/skaiworldwide-oss/agensgraph/stargazers)
 - **Supported Models**: 🕸️ Property Graph & 🗄️ Relational RDBMS (PostgreSQL)
 - **Primary Language & Core**: C
 - **Query Interface**: Hybrid `SQL` + `Cypher` in the same query statement
 - **Architecture Highlights**: Direct integration into the PostgreSQL kernel. Stores relational tables and graph vertices/edges in the same database catalog, enabling developers to write Cypher graph matches and SQL relational joins simultaneously.
 - **Best For**: PostgreSQL shops needing deeply integrated graph modeling alongside transactional relational systems.
 
-### 13. [ArcadeDB](https://github.com/ArcadeData/arcadedb) [![GitHub stars](https://img.shields.io/github/stars/ArcadeData/arcadedb?style=social&color=white)](https://github.com/ArcadeData/arcadedb/stargazers)
+### 13. [ArcadeDB](https://github.com/ArcadeData/arcadedb) [![GitHub_Stars](https://img.shields.io/github/stars/ArcadeData/arcadedb?style=social&color=white)](https://github.com/ArcadeData/arcadedb/stargazers)
 - **Supported Models**: 🕸️ Graph, 📄 Document, 🔑 Key-Value, ⏱️ Time-Series, 🧠 Vector Search, 🔎 Full-Text
 - **Primary Language & Core**: Java
 - **Query Interface**: `SQL`, `Cypher`, `Gremlin`, `GraphQL`, `MongoDB API`, and `Redis API`
 - **Architecture Highlights**: High-performance multi-model engine engineered by the original creator of OrientDB. Multi-API layer allows accessing the same physical data records through Cypher, SQL, MongoDB wire protocol, or Redis key-value operations with ACID transactions.
 - **Best For**: Polyglot database migrations, modernizing legacy OrientDB applications, and microservices requiring multi-protocol access.
 
-### 14. [OpenLink Virtuoso](https://github.com/openlink/virtuoso-opensource) [![GitHub stars](https://img.shields.io/github/stars/openlink/virtuoso-opensource?style=social&color=white)](https://github.com/openlink/virtuoso-opensource/stargazers)
+### 14. [OpenLink Virtuoso](https://github.com/openlink/virtuoso-opensource) [![GitHub_Stars](https://img.shields.io/github/stars/openlink/virtuoso-opensource?style=social&color=white)](https://github.com/openlink/virtuoso-opensource/stargazers)
 - **Supported Models**: 🗄️ Relational RDBMS, 🕸️ RDF Linked Data Graph, 📄 XML/JSON Document, 🔎 Full-Text
 - **Primary Language & Core**: C
 - **Query Interface**: `SPARQL`, `SQL`, and hybrid SQL-SPARQL
