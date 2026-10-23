@@ -1,6 +1,6 @@
 # Awesome-Multi-Model-Database
 
-# Top Multi-Model Database Ecosystem
+## Top Multi-Model Database Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Unified Data Models, ACID Transactions & Hybrid Query Languages*  
